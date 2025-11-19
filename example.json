@@ -1,0 +1,61 @@
+[
+  {
+    "patch": "1.0 -> 1.1",
+    "key": {
+      "hash": 19430232,
+      "file": "key_file.exe"
+    },
+    "added": [
+      "Data/new_file1.dll",
+      "Data/new_file2.ini"
+    ],
+    "modified": [
+      "Data/modified_file1.png",
+      "Data/modified_file2.dll",
+      "key_file.exe"
+    ],
+    "source_added": [
+      "https://example.com/0/new_file1.dll",
+      "https://example.com/0/new_file2.ini"
+    ],
+    "source_modified": [
+      "https://example.com/0/modified_file1.png.diff",
+      "https://example.com/0/modified_file2.dll.diff",
+      "https://example.com/0/key_file.exe.diff"
+    ],
+    "verify": [
+      39950394,
+      94030294,
+      23590394
+    ]
+  },
+  {
+    "patch": "1.1 -> 1.2",
+    "key": {
+      "hash": 23590394,
+      "file": "key_file.exe"
+    },
+    "added": [
+      "Data/new_file1.png",
+      "Data/new_file2.dll",
+      "new_file3.dll"
+    ],
+    "modified": [
+      "Data/modified_file1.dll",
+      "key_file.exe"
+    ],
+    "source_added": [
+      "https://example.com/1/new_file1.png",
+      "https://example.com/1/new_file2.dll",
+      "https://example.com/1/new_file3.dll"
+    ],
+    "source_modified": [
+      "https://example.com/modified_file1.dll.diff",
+      "https://example.com/key_file.exe.diff"
+    ],
+    "verify": [
+      463474567,
+      253489864
+    ]
+  }
+]
